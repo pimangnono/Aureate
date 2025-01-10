@@ -6,6 +6,7 @@ Aureate is a Python program designed to automate the following tasks:
 
 ------------------
 
+
 ### I.	Introduction
 Aureate was developed during the ESCENDO 2025 Hackathon to address the following problem:
 
@@ -15,7 +16,7 @@ Aureate was developed during the ESCENDO 2025 Hackathon to address the following
 
 *Aureate emphasizes lean management by designing a compact keyboard specifically for caregiving purposes, allowing for cost-effective transportation and storage. This makes the service more affordable and accessible to a wider audience.*
 
-------------------
+
 
 ### II.	Features and Visuals
 
@@ -28,14 +29,14 @@ Aureate was developed during the ESCENDO 2025 Hackathon to address the following
 ##### Generated Piano Tile Video:
 <img width="738" alt="image" src="https://github.com/user-attachments/assets/eaa66cba-384b-43dc-a58c-e8925948e8fc" />
 
-------------------
+
 
 ### III.	Attribution
 
 •	SheetVision is used for reading sheet music and converting it into MIDI files. It was developed by Calvin Gregory and Calvert Pratt. [GitHub Repository](https://github.com/cal-pratt/SheetVision)
 •	Synthviz is utilized to generate piano tile visualizations. [PyPI Page](https://pypi.org/project/synthviz/)
 
-------------------
+
 
 ### IIII.  Installation
 
