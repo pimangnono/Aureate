@@ -33,8 +33,8 @@ Aureate was developed during the ESCENDO 2025 Hackathon to address the following
 
 ### III.	Attribution
 
-•	SheetVision is used for reading sheet music and converting it into MIDI files. It was developed by Calvin Gregory and Calvert Pratt. [GitHub Repository](https://github.com/cal-pratt/SheetVision)
-•	Synthviz is utilized to generate piano tile visualizations. [PyPI Page](https://pypi.org/project/synthviz/)
+- SheetVision is used for reading sheet music and converting it into MIDI files. It was developed by Calvin Gregory and Calvert Pratt. [GitHub Repository](https://github.com/cal-pratt/SheetVision)
+- Synthviz is utilized to generate piano tile visualizations. [PyPI Page](https://pypi.org/project/synthviz/)
 
 
 
