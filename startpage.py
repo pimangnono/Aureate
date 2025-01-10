@@ -26,7 +26,6 @@ st.markdown(
         font-size: 20px;
         margin-bottom: 0px;
     }
-    </style>
     """,
     unsafe_allow_html=True,
 )
@@ -76,6 +75,30 @@ with tab1:
         st.video("output.mp4", start_time=0, autoplay=True, muted=True)
 
         time.sleep(1)
-        st.audio("output.wav", start_time=0, autoplay=True)
 
+        # need to close the file and reupload the file to play the audio
+        st.audio("output.wav", start_time=0, autoplay=True, loop=False)
 
+# need to mute the computer b4 changing the tab 
+with tab2:
+    st.markdown("Coming soon...")
+
+# need to mute the computer b4 changing the tab
+with tab3:
+    row1 = st.columns(3)
+    row2 = st.columns(3)
+
+    row1[0].container(height=120).image("resources/samples/hbd.jpg", use_container_width=True)
+    row1[1].container(height=120).image("resources/samples/fire.jpg", use_container_width=True)
+    row1[2].container(height=120).image("resources/samples/lost.jpg", use_container_width=True)
+    row2[0].container(height=120).image("resources/samples/races.png", use_container_width=True)
+    row2[1].container(height=120).image("resources/samples/sheet.jpg", use_container_width=True)
+    row2[2].container(height=120).image("resources/samples/twinkle.jpg", use_container_width=True)
+
+# need to mute the computer b4 changing the tab
+with tab4:
+    st.image("resources/shop1.png", use_container_width=True)
+    st.image("resources/shop2.png", use_container_width=True)
+
+with tab5:
+    st.markdown("Coming soon...")
