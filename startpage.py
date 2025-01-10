@@ -33,7 +33,7 @@ st.markdown(
 
 st.image("resources/logo.png", width=200)
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["🏠 Home", "🔖 User Guide", "🎼 Find Music", "🛒 Shop", "📞 Contact"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎹 Play", "🔖 User Guide", "🎼 Find Music", "🛒 Shop", "📞 Contact"])
 
 with tab1:
     st.markdown('<p class="file-uploader-text">Upload your music piece</p>', unsafe_allow_html=True)
