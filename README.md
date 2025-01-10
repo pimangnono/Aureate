@@ -1,37 +1,52 @@
-## Sheet Vision
+## Aureate
 
-Sheet Vision is a python program which reads sheet music and turns it into midi files.
-
-![image](https://cloud.githubusercontent.com/assets/7611406/17604255/9819f878-5fef-11e6-8f49-865d07284803.png)
-
-## Developing a Sheet Music Reader
-Calvin Gregory, and Calvert Pratt
-
-### I.	Introduction
-Applications in the field of Music Optical Character Recognition (OCR), also referred to as Optical Music Recognition, are an application of machine vision which serves to simplify the sight reading learning process and speed up music transcription. The sheet music reader application SheetVision was developed to convert single-tone lines of written music into a computer readable format for audio song playback. It does this through a template image matching algorithm implemented in Python using OpenCV which searches the target image for instances of each music character type such as notes, flats, and sharps. These characters are then identified, sequenced, and exported to a MIDI file for playback. 
-
-### II.	Project Scope
-The sheet music reader application was designed to convert images of written sheet music into a computer-readable format. SheetVision takes in an image of written sheet music, classifies all relevant music characters in the image, then generates and exports a MIDI file with all of the classified characters properly sequenced and identified as music notations. The application can handle single tone sequences of notes consisting of whole, half, quarter, and paired eighth (Ti-Ti) notes. It also interprets key signatures (sharp and flat symbols included at the beginning of a line) and rest characters. SheetVision is capable of interpreting most simple to moderate complexity sheet music arrangements written for single-tone instruments such as woodwinds, strings, and vocals. 
-
-### III.	Algorithm
-The algorithm used for music character identification uses the following series of steps to categorize each note or symbol in the target image:
- - A.	Image Filtering / Binary Conversion
- - B.	Template Scaling
- - C.	Character Classification
- - D.	Classifier Thresholding
- - E.	Note Identification and Sequencing
- - F.	Export results to MIDI
+Aureate is a Python program designed to automate the following tasks:
+1. Reading sheet music and converting it into MIDI files.
+2. Creating piano tile MP4 videos using the generated MIDI files.
 
 ------------------
 
-#### Libraries sourced from http://www.lfd.uci.edu/~gohlke/pythonlibs/
-- (for x64)
-  - numpy-1.11.1+mkl-cp35-cp35m-win_amd64.whl
-  - matplotlib-1.5.2-cp35-cp35m-win_amd64.whl
-  - opencv_python-3.1.0-cp35-cp35m-win_amd64.whl
-- (for x86) 
-  - numpy-1.11.1+mkl-cp35-cp35m-win32.whl
-  - matplotlib-1.5.2-cp35-cp35m-win32.whl
-  - opencv_python-3.1.0-cp35-cp35m-win32.whl
 
-Midiutil Python 3 version is included in this repo
+### I.	Introduction
+Aureate was developed during the ESCENDO 2025 Hackathon to address the following problem:
+
+*By 2030, one in four Singaporeans will be aged 65 or older. However, only 9.6% of seniors currently have access to senior activity centres due to limited manpower and care options.*
+
+*Our solution, Aureate, introduces elderly-friendly interactive keyboards tailored for senior activity centres. This innovation enables independent music therapy to enhance sensorimotor neural connections, thereby improving physical and cognitive abilities.*
+
+*Aureate emphasizes lean management by designing a compact keyboard specifically for caregiving purposes, allowing for cost-effective transportation and storage. This makes the service more affordable and accessible to a wider audience.*
+
+
+
+### II.	Features and Visuals
+
+##### Program Workflow:
+<img width="779" alt="image" src="https://github.com/user-attachments/assets/a70f8c60-cc77-4d9d-8ace-cb224455a12d" />
+
+##### Sample Sheet Music Conversion:
+<img width="787" alt="image" src="https://github.com/user-attachments/assets/95eecb96-4f20-4ebf-88ab-8e29c2eb60c9" />
+
+##### Generated Piano Tile Video:
+<img width="738" alt="image" src="https://github.com/user-attachments/assets/eaa66cba-384b-43dc-a58c-e8925948e8fc" />
+
+
+
+### III.	Attribution
+
+- SheetVision is used for reading sheet music and converting it into MIDI files. It was developed by Calvin Gregory and Calvert Pratt. [GitHub Repository](https://github.com/cal-pratt/SheetVision)
+- Synthviz is utilized to generate piano tile visualizations. [PyPI Page](https://pypi.org/project/synthviz/)
+
+
+
+### IIII.  Installation
+
+To use Aureate, the following libraries need to be installed:
+
+- pip install midiutil
+- pip install streamlit
+- pip install synthviz
+- pip install ffmpeg
+- pip install timidity
+  
+
+
