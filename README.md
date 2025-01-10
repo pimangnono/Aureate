@@ -9,11 +9,11 @@ Aureate is a Python program designed to automate the following tasks:
 ### I.	Introduction
 Aureate was developed during the ESCENDO 2025 Hackathon to address the following problem:
 
-	*By 2030, one in four Singaporeans will be aged 65 or older. However, only 9.6% of seniors currently have access to senior activity centres due to limited manpower and care options.*
+*By 2030, one in four Singaporeans will be aged 65 or older. However, only 9.6% of seniors currently have access to senior activity centres due to limited manpower and care options.*
 
-	*Our solution, Aureate, introduces elderly-friendly interactive keyboards tailored for senior activity centres. This innovation enables independent music therapy to enhance sensorimotor neural connections, thereby improving physical and cognitive abilities.*
+*Our solution, Aureate, introduces elderly-friendly interactive keyboards tailored for senior activity centres. This innovation enables independent music therapy to enhance sensorimotor neural connections, thereby improving physical and cognitive abilities.*
 
-	*Aureate emphasizes lean management by designing a compact keyboard specifically for caregiving purposes, allowing for cost-effective transportation and storage. This makes the service more affordable and accessible to a wider audience.*
+*Aureate emphasizes lean management by designing a compact keyboard specifically for caregiving purposes, allowing for cost-effective transportation and storage. This makes the service more affordable and accessible to a wider audience.*
 
 ### II.	Features and Visuals
 
