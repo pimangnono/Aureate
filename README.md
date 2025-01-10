@@ -1,8 +1,13 @@
-## Sheet Vision
+## Aureate
 
-Sheet Vision is a python program which reads sheet music and turns it into midi files.
+Aureate is a python program that automates the following tasks:
+
+1) reads sheet music and turns it into midi files
 
 ![image](https://cloud.githubusercontent.com/assets/7611406/17604255/9819f878-5fef-11e6-8f49-865d07284803.png)
+
+2) Make piano tile MP4 video with the generated midi files
+<video src="output.mp4" width="320" height="240" controls></video>
 
 ## Developing a Sheet Music Reader
 Calvin Gregory, and Calvert Pratt
