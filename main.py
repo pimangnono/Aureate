@@ -80,11 +80,23 @@ def open_file(path):
     cmd = {'linux':'eog', 'win32':'explorer', 'darwin':'open'}[sys.platform]
     subprocess.run([cmd, path])
 
+def get_last_uploaded_file():
+    try:
+        with open('resources/samples/last_uploaded_file.txt', 'r') as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return None
+
 if __name__ == "__main__":
-    img_file = sys.argv[1:][0]
+    uploaded_file_name = get_last_uploaded_file()
+    if uploaded_file_name:
+        img_file = uploaded_file_name
+    else:
+        img_file = "resources/samples/hbd.jpg"
+    
     img = cv2.imread(img_file, 0)
-    img_gray = img#cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    img = cv2.cvtColor(img_gray,cv2.COLOR_GRAY2RGB)
+    img_gray = img #cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    #img = cv2.cvtColor(img_gray,cv2.COLOR_GRAY2RGB)
     ret,img_gray = cv2.threshold(img_gray,127,255,cv2.THRESH_BINARY)
     img_width, img_height = img_gray.shape[::-1]
 

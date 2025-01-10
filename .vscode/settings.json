@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./MIDIUtil-0.89/MIDIUtil-0.89/src"
+    ]
+}
