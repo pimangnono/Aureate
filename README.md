@@ -1,6 +1,6 @@
 ## Aureate
 
-Aureate is a Python program designed to automate the following tasks:
+[Aureate](https://aureate.streamlit.app) is a Python program designed to automate the following tasks:
 1. Reading sheet music and converting it into MIDI files.
 2. Creating piano tile MP4 videos using the generated MIDI files.
 
