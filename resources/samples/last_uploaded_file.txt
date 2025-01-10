@@ -1,1 +1,1 @@
-resources/samples/hbd.jpg
+resources/samples/twinkle.jpg

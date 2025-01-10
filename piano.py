@@ -40,4 +40,4 @@
 
 from synthviz import create_video
 
-create_video('resources/samples/hbd.mid') 
+create_video('resources/samples/twinkle.mid') 
