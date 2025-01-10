@@ -21,8 +21,10 @@ Aureate was developed during the ESCENDO 2025 Hackathon to address the following
 
 ##### Program Workflow:
 <img width="779" alt="image" src="https://github.com/user-attachments/assets/a70f8c60-cc77-4d9d-8ace-cb224455a12d" />
+
 ##### Sample Sheet Music Conversion:
 <img width="787" alt="image" src="https://github.com/user-attachments/assets/95eecb96-4f20-4ebf-88ab-8e29c2eb60c9" />
+
 ##### Generated Piano Tile Video:
 <img width="738" alt="image" src="https://github.com/user-attachments/assets/eaa66cba-384b-43dc-a58c-e8925948e8fc" />
 
