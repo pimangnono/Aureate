@@ -2,41 +2,40 @@
 
 Aureate is a python program that automates the following tasks:
 
-1) reads sheet music and turns it into midi files
-
-![image](https://cloud.githubusercontent.com/assets/7611406/17604255/9819f878-5fef-11e6-8f49-865d07284803.png)
-
-2) Make piano tile MP4 video with the generated midi files
-<video src="output.mp4" width="320" height="240" controls></video>
-
-## Developing a Sheet Music Reader
-Calvin Gregory, and Calvert Pratt
+1) Reads sheet music and turns it into midi files
+2) Makes piano tile MP4 video with the generated midi files
 
 ### I.	Introduction
-Applications in the field of Music Optical Character Recognition (OCR), also referred to as Optical Music Recognition, are an application of machine vision which serves to simplify the sight reading learning process and speed up music transcription. The sheet music reader application SheetVision was developed to convert single-tone lines of written music into a computer readable format for audio song playback. It does this through a template image matching algorithm implemented in Python using OpenCV which searches the target image for instances of each music character type such as notes, flats, and sharps. These characters are then identified, sequenced, and exported to a MIDI file for playback. 
+Aureate was created during ESCENDO 2025 Hackathon with the following problem statement:
 
-### II.	Project Scope
-The sheet music reader application was designed to convert images of written sheet music into a computer-readable format. SheetVision takes in an image of written sheet music, classifies all relevant music characters in the image, then generates and exports a MIDI file with all of the classified characters properly sequenced and identified as music notations. The application can handle single tone sequences of notes consisting of whole, half, quarter, and paired eighth (Ti-Ti) notes. It also interprets key signatures (sharp and flat symbols included at the beginning of a line) and rest characters. SheetVision is capable of interpreting most simple to moderate complexity sheet music arrangements written for single-tone instruments such as woodwinds, strings, and vocals. 
+"""
+By 2030, one in four Singaporeans will be aged 65 or older, yet currently, only 9.6% of seniors have access to senior activity centres due to manpower shortages and limited care options.
 
-### III.	Algorithm
-The algorithm used for music character identification uses the following series of steps to categorize each note or symbol in the target image:
- - A.	Image Filtering / Binary Conversion
- - B.	Template Scaling
- - C.	Character Classification
- - D.	Classifier Thresholding
- - E.	Note Identification and Sequencing
- - F.	Export results to MIDI
+Our product, Aureate, introduces elderly-friendly interactive keyboards designed for senior activity centres. The core value lies in offering independent music therapy to enhance sensorimotor neural connections, improving both physical and cognitive abilities.
+
+We prioritize lean management by developing a compact keyboard tailored specifically for caregiving, enabling cost-effective transportation and storage, and making our service more affordable.
+"""
+
+### II.	Outlook
+<img width="779" alt="image" src="https://github.com/user-attachments/assets/a70f8c60-cc77-4d9d-8ace-cb224455a12d" />
+<img width="787" alt="image" src="https://github.com/user-attachments/assets/95eecb96-4f20-4ebf-88ab-8e29c2eb60c9" />
+<img width="738" alt="image" src="https://github.com/user-attachments/assets/eaa66cba-384b-43dc-a58c-e8925948e8fc" />
+
+
+### III.	Attribution
+Reading music score and converting into midi file is done by SheetVision application which is developed by Calvin Gregory and Calvert Pratt 
+(https://github.com/cal-pratt/SheetVision)
+
+Piano tile visualization is sourced from synthviz (https://pypi.org/project/synthviz/)
 
 ------------------
 
-#### Libraries sourced from http://www.lfd.uci.edu/~gohlke/pythonlibs/
-- (for x64)
-  - numpy-1.11.1+mkl-cp35-cp35m-win_amd64.whl
-  - matplotlib-1.5.2-cp35-cp35m-win_amd64.whl
-  - opencv_python-3.1.0-cp35-cp35m-win_amd64.whl
-- (for x86) 
-  - numpy-1.11.1+mkl-cp35-cp35m-win32.whl
-  - matplotlib-1.5.2-cp35-cp35m-win32.whl
-  - opencv_python-3.1.0-cp35-cp35m-win32.whl
+#### Libraries that need to be installed
+- pip install midiutil
+- pip install streamlit
+- pip install synthviz
+- pip install ffmpeg
+- pip install timidity
+  
 
-Midiutil Python 3 version is included in this repo
+
