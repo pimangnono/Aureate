@@ -38,7 +38,7 @@ Aureate was developed during the ESCENDO 2025 Hackathon to address the following
 
 
 
-### IIII.  Installation
+### IV.  Installation
 
 To use Aureate, the following libraries need to be installed:
 
